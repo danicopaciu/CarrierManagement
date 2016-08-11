@@ -8,7 +8,7 @@ import java.io.IOException;
  */
 public class NewsProperties {
 
-    private static final String PROPERTY_FILE = "resources/local.properties";
+    private static final String PROPERTY_FILE = "local.properties";
 
     public static String getProperty(String key) {
         if (key == null || key.length() <= 0) {
